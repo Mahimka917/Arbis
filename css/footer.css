@@ -1,0 +1,45 @@
+footer {
+    background-color: #4170B7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 7vw; /* Укажите размер вашего логотипа */
+    height: auto;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a i {
+    margin-right: 5px;
+}
+
+.footer-policy {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-policy:last-child {
+    margin-left: auto; /* Поместить политику в правый угол футера */
+}
+
+.footer-links a:last-child {
+    margin-left: auto; /* Правый край для последней ссылки */
+}

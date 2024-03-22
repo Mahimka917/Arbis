@@ -22,7 +22,7 @@
                         <a href="/#tariff" class="nav-link px-5">Тарифы</a>
                     </li>
                     <li class="nav-item">
-                        <a href="../view/news.php" class="nav-link pe-5">Новости</a>
+                        <a href="news.php" class="nav-link pe-5">Новости</a>
                     </li>
                     <li class="nav-item">
                         <a href="/#contacts" class="nav-link">Контакты</a>
@@ -39,7 +39,7 @@
 
 <body>
 
-<div style="background: url('../img/kub2.png') bottom no-repeat;">
+<div style="background: url: ('~/img/kub2.png') bottom no-repeat;">
     <div class="container">
         <br><br>
         <div class="rectangle">
@@ -144,7 +144,7 @@
 </div>
 
 <br><br><br><br>
-<div style="background: url('img/kub.png') top no-repeat; text-align: center; font-size: 14px;">
+<div style="background: url('kub.png') top no-repeat; text-align: center; font-size: 14px;">
     <div class="container">
         <br><br><br><br>
         <h2 style="color: white">Тарифы на электроэнергию в Архангельской области </h2>

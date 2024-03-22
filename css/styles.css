@@ -1,0 +1,69 @@
+.custom-padding {
+    padding-left: 100px; /* Левый отступ */
+    padding-right: 100px; /* Правый отступ */
+}
+
+@media (min-width: 768px) {
+    .custom-padding {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+p {
+    font-size: 20px;
+}
+
+body {
+    position: relative;
+    background: url('../img/gl.png') top right no-repeat;
+    background-size: 50%;
+}
+
+.btn-custom {
+    background-color: #FD7C58 !important; /* Желтый цвет */
+    border-color: #FD7C58 !important; /* Желтый цвет также для границы */
+    color: #fff !important; /* Белый текст на желтом фоне */
+    height: 60px; /* Высота кнопки */
+    width: 300px;
+}
+
+.btn-custom:hover {
+    background-color: #FFA87D !important; /* Цвет при наведении */
+    border-color: #FFA87D !important; /* Цвет границы при наведении */
+}
+
+
+.custom-size {
+    font-size: 40px; /* Увеличение размера текста */
+    padding: 24px 40px; /* Увеличение внутренних отступов для увеличения размера кнопки */
+}
+
+.table-no-border tr > :first-child,
+.table-no-border tr > :last-child,
+.table-no-border > :first-child > th,
+.table-no-border > :last-child > th {
+    border: none;
+}
+.rectangle table td {
+    padding: 30px 15px; /* Увеличиваем внутренний отступ сверху и снизу */
+    text-align: center; /* Центрирование текста в ячейках */
+}
+
+.rectangle {
+    padding: 25px; /* Отступ внутри прямоугольника */
+    overflow: hidden; /* Убираем прокрутку, если контент не помещается */
+    border-radius: 40px; /* Закругление краев */
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Горизонтальное смещение, вертикальное смещение, размытие, цвет */
+}
+
+
+
+.subheader-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subheader {
+    font-weight: normal;
+}
