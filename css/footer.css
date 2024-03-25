@@ -43,3 +43,13 @@ footer {
 .footer-links a:last-child {
     margin-left: auto; /* Правый край для последней ссылки */
 }
+
+.nav-item-c {
+    color: #02409F;
+}
+
+.btus{
+    background-color: #4170B7;
+    color: white;
+    border-radius: 15px;
+}
