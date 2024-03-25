@@ -13,12 +13,6 @@ p {
     font-size: 20px;
 }
 
-body {
-    position: relative;
-    background: url('../img/gl.png') top right no-repeat;
-    background-size: 50%;
-}
-
 .btn-custom {
     background-color: #FD7C58 !important; /* Желтый цвет */
     border-color: #FD7C58 !important; /* Желтый цвет также для границы */
@@ -32,6 +26,19 @@ body {
     border-color: #FFA87D !important; /* Цвет границы при наведении */
 }
 
+.btn-custom2 {
+    background-color: white !important; /* Белый цвет */
+    border: 2px solid #FD7C58 !important; /* Желтая граница */
+    color: black !important; /* Черный текст */
+    height: 60px; /* Высота кнопки */
+    width: 300px; /* Ширина кнопки */
+}
+
+.btn-custom2:hover {
+    background-color: #FFA87D !important; /* Цвет фона при наведении */
+    border-color: #FFA87D !important; /* Цвет границы при наведении */
+    color: black !important; /* Цвет текста при наведении */
+}
 
 .custom-size {
     font-size: 40px; /* Увеличение размера текста */
@@ -57,7 +64,33 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Горизонтальное смещение, вертикальное смещение, размытие, цвет */
 }
 
+.rectangle2 {
+    overflow: hidden; /* Убираем прокрутку, если контент не помещается */
+    border-radius: 30px; /* Закругление краев */
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Горизонтальное смещение, вертикальное смещение, размытие, цвет */
+}
 
+.rectangle2 div {
+    position: relative;
+}
+
+.rectangle2 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0; /* Убираем отступы */
+}
+
+.rectangle2 p {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 13px;
+    color: #646363;
+    margin: 10px;/* Центрирование текста по горизонтали */
+}
 
 .subheader-container {
     display: flex;
@@ -67,3 +100,26 @@ body {
 .subheader {
     font-weight: normal;
 }
+
+
+.img-container {
+    width: 50%;
+    overflow: hidden;
+}
+
+.carousel-indicators {
+    bottom: -40px; /* Положение кнопок относительно нижнего края карусели */
+}
+
+.carousel-indicators button {
+    width: 10px; /* Ширина кнопок */
+    height: 10px; /* Высота кнопок */
+    border-radius: 50%; /* Скругление углов для создания круглых кнопок */
+    background-color: blue; /* Цвет кнопок */
+    margin: 0 5px; /* Отступ между кнопками */
+}
+
+.carousel-indicators button.active {
+    background-color: red; /* Цвет активной кнопки */
+}
+

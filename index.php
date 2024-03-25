@@ -4,39 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Главная страница</title>
+    <style>
+
+        body {
+            position: relative;
+            background: url('img/gl.png') top right no-repeat;
+            background-size: 50%;
+        }
+
+    </style>
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-<header class="main-view mt-1" id="main">
-    <nav class="navbar navbar-expand-sm">
-        <div class="container">
-            <a href="/#main" class="navbar-brand">
-                <img src="img/logo2.png" class="brand w-nav-brand">
-            </a>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="/#about" class="nav-link">О предприятии</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/#tariff" class="nav-link px-5">Тарифы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/news.php" class="nav-link pe-5">Новости</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/#contacts" class="nav-link">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <a href="https://ennsa.ru/login" class="btn btn-primary" style="border-radius: 15px;"><img src="img/user.png"> Личный кабинет</a>
-                <a href="#" class="btn btn-primary" style="border-radius: 15px;"><img src="img/email.png"></a>
-            </div>
-        </div>
-    </nav>
-</header>
-
+<?php
+include 'fh/header.php';
+?>
+<body>
+<?php
+include 'modal.php';
+?>
 <main class="container">
     <br><br>
     <br><br>
@@ -45,7 +31,7 @@
     <p>Контролируй свои расходы за электроэнергию</p>
     <p>и исключай возможность воровства</p>
     <br><br>
-    <button class="btn btn-custom custom-size rounded-pill">Присоедениться</button>
+    <button class="btn btn-custom custom-size rounded-pill"  data-bs-toggle="modal" data-bs-target="#myModal">Присоединиться</button>
     <br><br>
     <br><br>
     <br><br>
@@ -86,15 +72,21 @@
                 <img src="img/Group%20169.png" alt="Изображение второй половины">
             </div>
         </div>
+
         <div class="col-md-6">
             <!-- Вторая половина страницы с изображением -->
-            <h2>АО "ННПО им. М.В. Фрунзе" </h2>
-            <p>Нижегородское научно-производственное объединение имени М.В.Фрунзе – это разработчик и производитель современных высокотехнологичных радиоэлектронных приборов военного и гражданского назначения.</p>
-            <p>Сертификация системы менеджмента качества предприятия подтверждена сертификатом Системы сертификации «Военный регистр» о соответствии стандартам ГОСТ Р ИСО 9001-2015 и ГОСТ РВ 0015-002-2012.</p>
+            <h2 style="color: #4170B7">АО "ННПО им. М.В. Фрунзе" </h2>
+            <br>
+            <p style="font-size: 18px">Нижегородское научно-производственное объединение имени М.В.Фрунзе – это разработчик и производитель современных
+                высокотехнологичных радиоэлектронных приборов военного и гражданского назначения.</p>
+            <br>
+            <p style="font-size: 18px">Сертификация системы менеджмента качества предприятия подтверждена сертификатом
+                Системы сертификации «Военный регистр» о соответствии стандартам ГОСТ Р ИСО 9001-2015 и ГОСТ РВ 0015-002-2012.</p>
+            <br>
             <div class="row">
                 <div class="col-md-6">
-                    <p>Лицензия на осуществление деятельности по изготовлению и ремонту средств измерений, выданная Федеральным агентством по техническому регулированию и метрологии. </p>
-                    <p>Перейти на официальный сайт</p>
+                    <p style="font-size: 18px">Лицензия на осуществление деятельности по изготовлению и ремонту средств измерений, выданная Федеральным агентством по техническому регулированию и метрологии. </p>
+                    <p><a href="#" style="color: #FD7C58; font-size: 15px">Перейти на официальный сайт</a></p>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -142,7 +134,7 @@
                     </td>
                     <td>5.65	руб за 1 кВт.ч</td>
                     <td>1.65	руб за 1 кВт.ч</td>
-                    <td>Постановление от 13 декабря 2019 г. № 81-э/30 </td>
+                    <td><a href="#" style="color:blue ;">Постановление от 13 декабря 2019 г. № 81-э/30 </a></td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -151,7 +143,7 @@
                     </td>
                     <td>5.65	руб за 1 кВт.ч</td>
                     <td>1.65	руб за 1 кВт.ч</td>
-                    <td>Постановление от 13 декабря 2019 г. № 81-э/30 </td>
+                    <td><a href="#" style="color:blue ;">Постановление от 13 декабря 2019 г. № 81-э/30 </a></td>
                 </tr>
                 <tr>
                     <td>3</td>
@@ -160,7 +152,7 @@
                     </td>
                     <td>5.65	руб за 1 кВт.ч</td>
                     <td>1.65	руб за 1 кВт.ч</td>
-                    <td>Постановление от 13 декабря 2019 г. № 81-э/30 </td>
+                    <td><a href="#" style="color:blue ;">Постановление от 13 декабря 2019 г. № 81-э/30 </a></td>
                 </tr>
                 <tr>
                     <td>4</td>
@@ -169,7 +161,7 @@
                     </td>
                     <td>5.65	руб за 1 кВт.ч</td>
                     <td>1.65	руб за 1 кВт.ч</td>
-                    <td>Постановление от 13 декабря 2019 г. № 81-э/30 </td>
+                    <td><a href="#" style="color:blue ;">Постановление от 13 декабря 2019 г. № 81-э/30 </a></td>
                 </tr>
                 <tr>
                     <td>5</td>
@@ -178,7 +170,7 @@
                     </td>
                     <td>5.65	руб за 1 кВт.ч</td>
                     <td>1.65	руб за 1 кВт.ч</td>
-                    <td>Постановление от 13 декабря 2019 г. № 81-э/30 </td>
+                    <td><a href="#" style="color:blue ;">Постановление от 13 декабря 2019 г. № 81-э/30 </a></td>
                 </tr>
                 <tr style="border-bottom: none;">
                     <td>6</td>
@@ -187,7 +179,7 @@
                     </td>
                     <td>5.65	руб за 1 кВт.ч</td>
                     <td>1.65	руб за 1 кВт.ч</td>
-                    <td>Постановление от 13 декабря 2019 г. № 81-э/30 </td>
+                    <td><a href="#" style="color:blue ;">Постановление от 13 декабря 2019 г. № 81-э/30 </a></td>
                 </tr>
                 </tbody>
             </table>
@@ -215,8 +207,18 @@
             <p>Если плита на кухне электрическая, а не газовая, то тариф на электроэнергию будет ниже на 30%. Это своего рода льгота, которая предоставляется жильцами, чтобы компенсировать им более высокий расход электричества. И вот вопрос: как собственнику квартиры этот самый льготный тариф получить? Давайте разберемся...</p>
             <div class="row">
                 <div class="col-md-6">
-                    <button class="btn btn-custom custom-size rounded-pill">Присоедениться</button>
+                    <p><a href="full.php" style="color: #5d5d5d; font-style: italic">Подробнее --></a></p>
                 </div>
+                <div class="col-md-6" style="text-align: right">
+                    <p style="color: #5d5d5d;">13.03.2020</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <button class="btn btn-custom2 custom-size rounded-pill" style="text-align: center" onclick="window.location.href='news.php'">Все новости</button>
+                </div>
+
             </div>
         </div>
     </div>
@@ -251,47 +253,14 @@
 
     </div>
 </div>
+
     </body>
 </html>
 
 
-<footer class="container-fluid" style="background-color: #4170B7">
-    <nav class="navbar navbar-expand-sm">
-        <div class="container">
-            <a href="/#main" class="navbar-brand">
-                <img src="img/logo.png" class="brand w-nav-brand">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto" >
-                    <li class="nav-item">
-                        <a href="/#about" class="nav-link" style="color: white">О предприятии</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/#tariff" class="nav-link" style="color: white">Тарифы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/#news" class="nav-link" style="color: white">Новости</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/#contacts" class="nav-link" style="color: white">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-2"><a href="#"style="text-decoration:none; color: white"><img src="img/user.png" class="brand w-nav-brand"> Личный кабинет</a></div>
-            <div class="col-md-2"><a href="mailto:your@email.com" style="text-decoration:none; color: white"><img src="img/email.png" class="brand w-nav-brand"> dm.5265@mail.ru</a></div>
-        </div>
-    </nav>
-
-    <div class="footer-policy"  style="color: white; text-align: center;">Продолжая использовать наш сайт, Вы даете согласие на обработку файлов Cookies,
-        в соответствии с Политикой конфиденциальности и Согласием на обработку персональных данных
-    </div>
-    <div class="footer-policy" style="color: white; text-align: center;">
-        @ 2020 Все права защищены.
-    </div>
-</footer>
+<?php
+include 'fh/footer.php';
+?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
