@@ -21,31 +21,28 @@ include 'modal.php';
     <div class="row">
         <div class="col-md-6">
             <img src="img/avatar.jpg" style="width: 70%">
-
         </div>
         <div class="col-md-6">
             <p>Добрый день, пользователь</p>
             <p>Желаете изменить логин или пароль?</p>
-            <div style="margin: 10px ">
+            <div class="lkinp">
                 <input type="text" class="form-control" id="username" placeholder="Логин">
             </div>
-            <div style="margin: 10px ">
+            <div class="lkinp">
                 <input type="password" class="form-control" id="password" placeholder="Пароль">
             </div>
-            <div style="margin: 10px ">
+            <div class="lkinp">
                 <a href="lk.php" class="btn btn-primary w-100" style="background-color: #4170B7">Изменить</a>
             </div>
         </div>
     </div>
 </div>
-<br>
-<br>
-<br>
-<br>
+<div style="margin-top: 300px"></div>
+
+
 </body>
 </html>
 
 <?php
 include 'fh/footer.php';
 ?>
-

@@ -37,7 +37,8 @@ tr:hover{
     color: black !important; /* Черный текст */
     height: 60px; /* Высота кнопки */
     width: 300px; /* Ширина кнопки */
-    border-radius: 15px !important;;
+    border-radius: 15px !important;
+    text-align: center;
 }
 
 .btn-custom2:hover {
@@ -84,7 +85,6 @@ tr:hover{
 }
 
 .rectangle2 img {
-
     max-width: 100%;
     height: auto;
     margin: 0; /* Убираем отступы */
@@ -110,11 +110,18 @@ tr:hover{
 .rectangle3 div {
     position: relative;
 }
+.rectangle3 .first-img {
+    width: 100%; /* Ширина изображения равна ширине блока */
+    height: 100%;
+    margin: 0;
+    object-fit: cover;/* Убираем отступы */
+}
 
-.rectangle3 img {
-    max-width: 100%;
-    height: auto;
-    margin: 0; /* Убираем отступы */
+/* Стили для второго изображения в блоке .rectangle3 */
+.rectangle3 .second-img {
+    max-width: 100%; /* Изображение будет занимать максимально возможную ширину блока */
+    height: auto; /* Автоматический расчет высоты изображения для сохранения пропорций */
+    margin: 0;
 }
 
 .rectangle3 p {
@@ -131,7 +138,6 @@ tr:hover{
 .subheader {
     font-weight: normal;
 }
-
 
 .img-container {
     width: 50%;
@@ -153,3 +159,209 @@ tr:hover{
 .carousel-indicators button.active {
     background-color: red; /* Цвет активной кнопки */
 }
+
+.main-paragraph {
+    margin-top: 200px;
+}
+
+.max-width-image {
+    max-width: 100%;
+}
+
+
+/* Стили для описания компании */
+.company-title {
+    color: #4170B7;
+    font-size: 2em; /* Начальный размер заголовка компании */
+}
+
+.company-description {
+    font-size: 1.2em; /* Начальный размер описания компании */
+}
+/* Для адаптации размера текста в зависимости от ширины экрана */
+@media (max-width: 1200px) {
+    .company-title {
+        font-size: 1.8em; /* Уменьшенный размер заголовка для экранов шириной до 1200px */
+    }
+
+    .company-description {
+        font-size: 1em; /* Уменьшенный размер описания для экранов шириной до 1200px */
+    }
+}
+
+@media (max-width: 992px) {
+    .company-title {
+        font-size: 1.6em; /* Уменьшенный размер заголовка для экранов шириной до 992px */
+    }
+
+    .company-description {
+        font-size: 0.8em; /* Уменьшенный размер описания для экранов шириной до 992px */
+    }
+}
+
+.official-website-link {
+    color: #FD7C58;
+    font-size: 15px;
+}
+
+.tariffs-container {
+    background: url('../img/kub.png') top no-repeat;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tariffs-title {
+    color: white;
+    margin-top: 100px;
+}
+
+.tariffs-table-container {
+    margin-top: 100px;
+}
+
+.tariffs-title {
+    color: white;
+    margin-top: 100px;
+    font-size: 2em; /* Начальный размер заголовка таблицы */
+}
+
+.tariffs-table-container table {
+    font-size: 1em; /* Начальный размер текста в таблице */
+}
+
+/* Для адаптации размера заголовка таблицы в зависимости от размера экрана */
+@media (max-width: 992px) {
+    .tariffs-title {
+        font-size: 1.5em; /* Уменьшенный размер заголовка для экранов шириной до 992px */
+    }
+}
+
+/* Для адаптации размера текста в таблице в зависимости от размера экрана */
+@media (max-width: 768px) {
+    .tariffs-table-container table {
+        font-size: 0.8em; /* Уменьшенный размер текста в таблице для экранов шириной до 768px */
+    }
+}
+
+.tariff-document-link {
+    color: #02409F;
+}
+
+.second-section-background {
+    background: url('../img/kub2.png') bottom no-repeat;
+}
+
+
+.third-section-background {
+    background: url('../img/kub2.png') top no-repeat;
+}
+
+/* Устанавливаем размеры шрифтов для заголовка и текста */
+.third-section-background h1 {
+    font-size: 2em; /* Размер заголовка */
+}
+
+.third-section-background h5 {
+    font-size: 1.5em; /* Размер подзаголовка */
+}
+
+.third-section-background h7 {
+    font-size: 1em; /* Размер основного текста */
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 1200px) {
+    /* Для экранов шириной до 1200px */
+    .third-section-background h1 {
+        font-size: 2.5em; /* Уменьшаем размер заголовка */
+    }
+
+    .third-section-background h5 {
+        font-size: 1.8em; /* Уменьшаем размер подзаголовка */
+    }
+
+    .third-section-background h7 {
+        font-size: 0.8em; /* Уменьшаем размер основного текста */
+    }
+}
+
+@media (max-width: 992px) {
+    /* Для экранов шириной до 992px */
+    .third-section-background h1 {
+        font-size: 2em; /* Уменьшаем размер заголовка */
+    }
+
+    .third-section-background h5 {
+        font-size: 1.6em; /* Уменьшаем размер подзаголовка */
+    }
+
+    .third-section-background h7 {
+        font-size: 0.7em; /* Уменьшаем размер основного текста */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Для экранов шириной до 768px */
+    .third-section-background h1 {
+        font-size: 1.8em; /* Уменьшаем размер заголовка */
+    }
+
+    .third-section-background h5 {
+        font-size: 1.4em; /* Уменьшаем размер подзаголовка */
+    }
+
+    .third-section-background h7 {
+        font-size: 0.6em; /* Уменьшаем размер основного текста */
+    }
+}
+
+.company-email {
+    color: #FD7C58;
+}
+
+.views{
+    color: #5d5d5d;
+    font-style: italic;
+}
+
+.views2{
+    color: #5d5d5d;
+}
+
+.rec2 {
+    padding: 30px; /* Отступ внутри прямоугольника */
+}
+
+.textnews{
+    font-size: 16px;
+}
+
+.fullnewsmar{
+    text-align: center;
+    margin-top: 100px
+}
+
+.fulltext{
+    color: white;
+    text-align: center;
+}
+
+.lkinp{
+    margin: 10px
+}
+
+.mdtext{
+    width: 100%;
+    color: #4170B7;
+}
+
+.mdspan{
+    color: #FD7C58;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mdhref{
+    text-align: left;
+}
+

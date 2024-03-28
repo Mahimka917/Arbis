@@ -1,10 +1,11 @@
+<link href="css/styles.css" rel="stylesheet">
 <div class="col-md-4">
     <div class="rectangle2">
-        <div style="display: block;">
-            <img src="img/new.png" style="max-width: 100%; height: auto;">
+        <div class="newshref">
+            <img src="img/new.png">
             <p>13.03.2020</p>
-            <h5 style="margin: 10px">Тариф на электроэнергию для квартир с электроплитами: как получить льготу?</h5>
-            <p><a href="full.php" style="color: #5d5d5d; font-style: italic">Подробнее <img src="img/Line%2014.svg"></a></p>
+            <h5 class="lkinp">Тариф на электроэнергию для квартир с электроплитами: как получить льготу?</h5>
+            <p><a href="full.php" class="views">Подробнее <img src="img/Line%2014.svg"></a></p>
         </div>
     </div>
 </div>

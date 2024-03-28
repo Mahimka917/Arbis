@@ -15,17 +15,17 @@ include 'modal.php';
 ?>
 <body>
 
-<div style="background: url('img/kub2.png') top no-repeat;">
+<div class="third-section-background ">
     <div class="container">
         <br><br>
-        <div class="row" style="text-align: center; color: white">
+        <div class="row fulltext">
             <h1>Новости</h1>
             <br><br><br><br>
         </div>
         <div class="rectangle3">
             <div class="row">
                 <div class="col-md-5">
-                        <img src="img/Group%2050.svg" alt="Изображение правой части">
+                    <img class="first-img" src="img/Group%2050.svg" alt="Изображение правой части">
                 </div>
                 <div class="col-md-6" style="padding: 30px">
                     <!-- Вторая половина страницы с изображением -->
@@ -37,10 +37,10 @@ include 'modal.php';
                     <br><br>
                     <div class="row">
                         <div class="col-md-6">
-                            <p><a href="full.php" style="color: #5d5d5d; font-style: italic">Подробнее <img src="img/Line%2014.svg"></a></p>
+                            <p><a href="full.php" class="views">Подробнее <img class="second-img" src="img/Line%2014.svg"></a></p>
                         </div>
                         <div class="col-md-6" style="text-align: right">
-                            <p style="color: #5d5d5d;">13.03.2020</p>
+                            <p class="views2" ">13.03.2020</p>
                         </div>
 
                     </div>
@@ -99,4 +99,3 @@ include 'fh/footer.php';
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
-

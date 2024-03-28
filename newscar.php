@@ -1,3 +1,4 @@
+<link href="css/styles.css" rel="stylesheet">
 <div class="row">
     <div class="col-md-5">
         <!-- Первая половина разделена на две части -->
@@ -16,18 +17,16 @@
         <p>Если плита на кухне электрическая, а не газовая, то тариф на электроэнергию будет ниже на 30%. Это своего рода льгота, которая предоставляется жильцами, чтобы компенсировать им более высокий расход электричества. И вот вопрос: как собственнику квартиры этот самый льготный тариф получить? Давайте разберемся...</p>
         <div class="row">
             <div class="col-md-6">
-                <p><a href="full.php" style="color: #5d5d5d; font-style: italic">Подробнее <img src="img/Line%2014.svg"></a></p>
+                <p><a href="full.php" class="views">Подробнее <img src="img/Line%2014.svg"></a></p>
             </div>
             <div class="col-md-6" style="text-align: right">
                 <p style="color: #5d5d5d;">13.03.2020</p>
             </div>
-
         </div>
         <div class="row">
             <div class="col-md-6">
-                <button class="btn btn-custom2 custom-size" style="text-align: center" onclick="window.location.href='news.php'">Все новости</button>
+                <button class="btn btn-custom2" style="text-align: center" onclick="window.location.href='news.php'">Все новости</button>
             </div>
-
         </div>
     </div>
 </div>
