@@ -8,10 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <?php
-include 'fh/header.php';
+include 'header.php';
 ?>
 <?php
 include 'modal.php';
+?>
+<?php
+include 'modalemail.php';
 ?>
 <body>
 
@@ -92,10 +95,17 @@ include 'modal.php';
         </div>
     </div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col" style="text-align: right; padding-top: 30px">
+            <a class="me-3" type="button"  data-bs-slide="prev"><img src="img/left.png" alt=""></a>
+            <a type="button"  data-bs-slide="next"><img src="img/right.png" alt=""></a>
+        </div>
+    </div>
+</div>
 <br>
 <?php
-include 'fh/footer.php';
+include 'footer.php';
 ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

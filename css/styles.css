@@ -179,7 +179,7 @@ tr:hover{
     font-size: 1.2em; /* Начальный размер описания компании */
 }
 /* Для адаптации размера текста в зависимости от ширины экрана */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .company-title {
         font-size: 1.8em; /* Уменьшенный размер заголовка для экранов шириной до 1200px */
     }
@@ -217,6 +217,7 @@ tr:hover{
 
 .tariffs-table-container {
     margin-top: 100px;
+    overflow-x: auto;
 }
 
 .tariffs-title {
@@ -363,5 +364,41 @@ tr:hover{
 
 .mdhref{
     text-align: left;
+}
+
+.in1{
+    color: #4B69C6;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.in2{
+    color: #866FA1;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+.in3{
+    color: #C2767D;
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+
+.lkinp2{
+    margin-top: 10px
+}
+
+.textcont{
+    padding-left: 10px;
+}
+
+.bodyimg{
+    position: relative;
+    background: url('../img/gl.png') top right no-repeat;
+    background-size: 50%;
 }
 

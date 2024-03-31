@@ -1,4 +1,4 @@
-<link href="css/styles.css" rel="stylesheet">
+
 <div class="row">
     <div class="col-md-5">
         <!-- Первая половина разделена на две части -->

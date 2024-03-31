@@ -50,6 +50,21 @@ footer {
 
 .btus{
     background-color: #4170B7;
+    border-color: #4170B7;
     color: white;
     border-radius: 15px;
+}
+
+.colornav{
+    color: white;
+}
+
+.colornav2{
+    color: white;
+    text-decoration:none;
+}
+
+.colornav3{
+    color: white;
+    text-align: center;
 }

@@ -5,21 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Главная страница</title>
     <style>
-        body {
-            position: relative;
-            background: url('img/gl.png') top right no-repeat;
-            background-size: 50%;
-        }
     </style>
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <?php
-include 'fh/header.php';
+include 'header.php';
 ?>
-<body>
+<body class="bodyimg">
 <?php
 include 'modal.php';
+?>
+<?php
+include 'modalemail.php';
 ?>
 <main class="container">
     <p class="main-paragraph" >Контролируй свои расходы за электроэнергию</p>
@@ -27,14 +25,17 @@ include 'modal.php';
     <button class="btn btn-custom custom-margin" data-bs-toggle="modal" data-bs-target="#myModal">Присоединиться</button>
     <div class="main-paragraph">
         <div class="row main-paragraph">
-            <div class="col-md-3">
-                <img src="img/Group%2031.png" alt="Изображение 1">
+            <div class="col-md-3 lkinp in1">
+                <img src="img/in1.svg" alt="Изображение 1">
+                <p class="in1">Установка и обслуживание системы </p>
             </div>
-            <div class="col-md-3">
-                <img src="img/Group%2032.png" alt="Изображение 2">
+            <div class="col-md-3 lkinp in2">
+                <img src="img/in2.svg" alt="Изображение 2">
+                <p class="in2">Контроль за расходом электроэнергии</p>
             </div>
-            <div class="col-md-2">
-                <img src="img/Group%2033.png" alt="Изображение 3">
+            <div class="col-md-3 lkinp in3">
+                <img src="img/in3.svg" alt="Изображение 3">
+                <p class="in3">Исключение возможности воровства</p>
             </div>
         </div>
     </div>
@@ -45,16 +46,16 @@ include 'modal.php';
         <div class="col-md-6">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="img/Group%2034.png" alt="Изображение левой части" class="max-width-image">
+                    <img class="lkinp2 img-fluid" src="img/Group%2034.png" alt="Изображение левой части">
                 </div>
                 <div class="col-md-6">
-                    <img src="img/Group%2035.png" alt="Изображение правой части" class="max-width-image">
+                    <img class="lkinp2 img-fluid" src="img/Group%2035.png" alt="Изображение правой части">
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-md-12">
-                    <img src="img/Group%20169.png" alt="Изображение второй половины" class="max-width-image">
+                    <img src="img/Group%20169.png" alt="Изображение второй половины" class="max-width-image img-fluid">
                 </div>
             </div>
         </div>
@@ -82,6 +83,7 @@ include 'modal.php';
         </div>
     </div>
 </div>
+
 
 <div class="tariffs-container tariffs-table-container">
     <div class="container">
@@ -156,6 +158,7 @@ include 'modal.php';
                 </tbody>
             </table>
         </div>
+        <br><br>
 
     </div>
 </div>
@@ -206,7 +209,7 @@ include 'modal.php';
                     <p class="company-description">ООО “ЭНСА” ведет установку и обслуживание системы АИИС КУЭ на базе КТС “МАЯК”.</p>
                     <p class="company-description">С нашей помощью СНТ, СОТы и любые граждане контролируют свои расходы за электроэнергию и исключают возможность воровства.</p>
                     <p class="company-description">На сайте Вы можете получить всю необходимую информацию по потребленной и оплаченной злектроэнергии</p>
-                    <p class="company-description">Чтобы присоединиться или узнать подробности подключения обратитесь по адресу <a class="company-email" href="dm.5265@mail.ru">dm.5265@mail.ru</a> или оставить заявку на сайта и <a class="company-email" href="dm.5265@mail.ru"> мы свяжемся</a> с Вами.</p>
+                    <p class="company-description">Чтобы присоединиться или узнать подробности подключения обратитесь по адресу <a class="company-email" href="mailto:dm.5265@mail.ru">dm.5265@mail.ru</a> или оставить заявку на сайта и <a class="company-email" href="dm.5265@mail.ru"> мы свяжемся</a> с Вами.</p>
                     <br>
                 </div>
                 <div class="col-md-6">
@@ -226,9 +229,9 @@ include 'modal.php';
 </html>
 
 <?php
-include 'fh/footer.php';
+include 'footer.php';
 ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
 </body>
 </html>
 

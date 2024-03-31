@@ -8,10 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <?php
-include 'fh/header.php';
+include 'header.php';
 ?>
 <?php
 include 'modal.php';
+?>
+<?php
+include 'modalemail.php';
 ?>
 <br>
 <br>
@@ -44,5 +47,5 @@ include 'modal.php';
 </html>
 
 <?php
-include 'fh/footer.php';
+include 'footer.php';
 ?>

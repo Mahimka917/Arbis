@@ -8,10 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <?php
-include 'fh/header.php';
+include 'header.php';
 ?>
 <?php
 include 'modal.php';
+?>
+<?php
+include 'modalemail.php';
 ?>
 <div style="background: url('img/kub3.png') bottom no-repeat;">
     <div class="container">
@@ -40,7 +43,7 @@ include 'modal.php';
                     партнерами, государствами-союзниками. Перспективы очень хорошие при том понимании, что правительства будут заниматься реализацией договоренностей,
                     которые будут достигнуты сегодня в форме подписанных документов, соглашений. Уровень сотрудничества и взаимодействия довольно высокий.
                     Я с большой благодарностью принимаю приглашение принять участие в саммите COP29 – это большое историческое достижение азербайджанского государства
-                    и его дипломатии. Саммит имеет первостепенное значение с точки зрения урегулирования существующих климатических проблем и глобального сотрудничества.
+                    и его дипломатии. <a class="company-email" href="dm.5265@mail.ru"> Саммит имеет первостепенное</a>  значение с точки зрения урегулирования существующих климатических проблем и глобального сотрудничества.
                     Баку, безусловно, справится с этой задачей", – заявил Глава нашего государства.</p>
                 <p class="textnews">Лидер Казахстана отметил положительную динамику развития торгово-экономических отношений с Азербайджаном.</p>
             </div>
@@ -111,13 +114,11 @@ include 'modal.php';
     <button class="btn btn-custom2 rounded-pill" onclick="window.location.href='news.php'">Все новости</button>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <script src="https://yastatic.net/share2/share.js"></script>
 <div class="ya-share2 fullnewsmar" data-curtain data-shape="round" data-services="vkontakte,odnoklassniki,telegram,whatsapp"></div>
 <br>
 </body>
 </html>
 <?php
-include 'fh/footer.php';
+include 'footer.php';
 ?>

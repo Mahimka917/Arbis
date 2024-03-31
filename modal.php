@@ -1,4 +1,3 @@
-<link href="css/styles.css" rel="stylesheet">
 <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
